@@ -1,0 +1,52 @@
+.header-container{
+	background: url(../images/headbk2.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.headerCTA{
+	text-align: center;
+	background-color: rgba(0,0,0,0.65);
+	color: #f3f3f3;
+	letter-spacing: 1.1px;
+	padding-top: 20px;
+	font-size: 60px;
+	font-weight: 600;
+}
+.headerIMG .img-circular{
+    /* make it responsive */
+    display:block;
+    /* make it a circle */
+    border-radius:50%;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    /*Centering LineS*/
+    padding: 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+}
+.headerIMG .img-circular:hover{
+	opacity: 0.7;
+	-webkit transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+
+}
+.headerSUB{
+	text-align: center;
+	color: #f3f3f3;
+	font-weight: 450;
+	background-color: rgba(0,0,0,0.65);
+}
+
+@media (max-width: 768px) {
+	.headerIMG .img-circular{
+	    max-width: 300px;
+	    height: 300px;
+	}
+}

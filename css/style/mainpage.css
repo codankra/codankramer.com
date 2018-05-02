@@ -1,0 +1,20 @@
+html{
+	font-family: sans-serif;
+	line-height: 1.15;
+}
+body{
+	background-color: black !important; 
+}
+
+.about{
+	background-color: #D7503C;
+}
+.main-container section {
+  padding: 54px 0;
+}
+
+@media (min-width: 992px) {
+.main-container section {
+    padding: 56px 0;
+  }
+}
