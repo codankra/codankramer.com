@@ -6,8 +6,11 @@ body{
 	background-color: black !important; 
 }
 
-.about{
+.certificates_experience{
 	background-color: #D7503C;
+}
+.about{
+	background-color: #06b9d6;
 }
 .main-container section {
   padding: 154px 0 100px;
@@ -15,9 +18,18 @@ body{
 .card{
 	margin: 30px 15px;
 }
+h1.text-center{
+	padding-bottom: 40px;
+}
 
 @media (min-width: 992px) {
 .main-container section {
     padding: 156px 0 100px;
   }
+  section .text-center{
+  	margin-top: -100px;
+  }
+}
+.aboutCard{
+	padding: 15px;
 }

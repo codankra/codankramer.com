@@ -4,17 +4,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
   <!-- Bootstrap CSS CDN -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="css/style/header.css">
 <link rel="stylesheet" type="text/css" href="css/style/nav.css">
 <link rel="stylesheet" type="text/css" href="css/style/mainpage.css">
-<title>Meet Daniel Kramer</title>
+<title>Daniel Kramer</title>
+<link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Penrose-dreieck.svg/1200px-Penrose-dreieck.svg.png">
+
 </head>
 <body id="page-top">
   <div class="header-container" id="page-top">
   	<section class="header">
-  		<h1 class="headerCTA d-none d-md-block">Meet Daniel Kramer</h1>
+  		<h1 class="headerCTA d-none d-md-block">I am Daniel Kramer</h1>
   		<h1 class="headerCTA d-md-none">Daniel Kramer</h1>
   		<div class="headerIMG">
   			<img class="img-fluid img-circular" src="images/me.jpeg" title="Daniel Kramer" />
@@ -40,7 +44,10 @@
                   <a class="nav-link js-scroll-trigger" href="#ss">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#ce">Contact</a>
+                  <a class="nav-link js-scroll-trigger" href="#ce">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
                 </li>
               </ul>
             </div>
@@ -48,18 +55,56 @@
         </nav>
   </div>
   <div class="main-container">
-  	<section class="about" id="about">
+  	<section class="about " id="about">
       <h1 class="text-center">What I Do</h1>
       <div class="row">
-        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <div class="aboutCard">
+            <h4 class="aTitle">
+              Front-End Web Design <i class="fas fa-code"></i>
+            </h4>
+            <p class="aDesc">
+              I use web technologies like HTML5, CSS3, and Javascript to create awesome website experiences like this! (I'm very experienced in HTML and have proficient knowledge of the core CSS and Javascript languages, as well as respective frameworks like Bootstrap, Materialize, and ReactJS.)
+            </p>
+            <p class="aFooter">
+              <a href="#">Learn More <i class="fas fa-external-link-square-alt"></i></a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="aboutCard">
+            <h4 class="aTitle">
+              Back-End Development <i class="fas fa-cogs"></i>
+            </h4>
+            <p class="aDesc">
+              I use web technologies like HTML5, CSS3, and Javascript to create awesome website experiences like this! (I'm very experienced in HTML and have proficient knowledge of the core CSS and Javascript languages, as well as respective frameworks like Bootstrap, Materialize, and ReactJS.)
+            </p>
+            <p class="aFooter">
+              <a href="#">Learn More <i class="fas fa-external-link-square-alt"></i></a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="aboutCard">
+            <h4 class="aTitle">
+              Social Media Marketing <i class="fas fa-cogs"></i>
+            </h4>
+            <p class="aDesc">
+              I use web technologies like HTML5, CSS3, and Javascript to create awesome website experiences like this! (I'm very experienced in HTML and have proficient knowledge of the core CSS and Javascript languages, as well as respective frameworks like Bootstrap, Materialize, and ReactJS.)
+            </p>
+            <p class="aFooter">
+              <a href="#">Learn More <i class="fas fa-external-link-square-alt"></i></a>
+            </p>
+          </div>
+        </div>
       </div>
-  		<hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr>
+      <div class="row">
+        <div class="col-lg-12"><a href="#contact" type="button" class="btn btn-lg btn-success">AVAILABLE FOR WORK BUTTON</a></div>
+        
+      </div>
   	</section>
-  	<section class="skills/services bg-success" id="ss">
-      <hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr>
-  		
-  	</section>
-    <section class="portfolio">
+    <section class="portfolio bg-success" id="ss">
+      <h1 class="sHeader text-center">My Projects</h1>
       <div class="row">
         <div class="col-md-4">
           <div class="card">
@@ -73,7 +118,7 @@
         </div>
         <div class="col-md-4">
           <div class="card">
-            <img class="card-img-top" src="images/headbk.jpg" alt="Card image" style="width:100%">
+            <img class="card-img-top" src="images/headbkv3.jpeg" alt="Card image" style="width:100%">
             <div class="card-body">
               <h4 class="card-title">John Doe</h4>
               <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
@@ -83,7 +128,7 @@
         </div>
         <div class="col-md-4">
           <div class="card">
-            <img class="card-img-top" src="images/headbk.jpg" alt="Card image" style="width:100%">
+            <img class="card-img-top" src="images/headbk2.jpg" alt="Card image" style="width:100%">
             <div class="card-body">
               <h4 class="card-title">John Doe</h4>
               <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
@@ -93,17 +138,18 @@
         </div>
       </div>
     </section>
-  	<section class="certificates/experience bg-primary" id="ce">
-      <hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr>
+  	<section class="certificates_experience" id="ce">
+      Skills: (List of buttons that dropdown to certificantes/courses and projects (if any)<hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr>
   		
   	</section>
-  	<section class="contact bg-white">
+  	<section class="contact bg-white" id="contact">
   		
   	</section>
-  	<footer>
-  		<div class="container">
-  			
-  		</div>
+  	<footer class="bg-warning">
+  		<p>
+  			Need a web developer? Have a question about me? Share that Here.
+        Email And/Or Phone #
+  		</p>
   	</footer>
   </div>
 
