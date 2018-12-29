@@ -1,0 +1,85 @@
+.header-container{
+	background: url(../../images/fallstream.gif) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.header{
+	width: 100vw!important;
+	height: 100vh!important;
+	position: relative;
+}
+.header-block{
+	z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.header-text{
+	background-color: rgba(0,0,0,0.10);
+	padding: 10px;
+	text-align: center;
+	color: #f3f3f3;
+	font-size: 60px;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.7);
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 900;
+	margin-bottom: 5%;
+}
+.fullname{
+	font-size: 75px; /*2 lines at 998- pixels*/
+	margin-bottom: 0;	
+}
+.role{
+	font-size: 35px;
+	margin-top: 0;
+	font-family: Arial,sans-serif;
+}
+.header-links{
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-links a{
+	text-decoration: none;
+	margin: 0 10px;
+}
+.header-links a .fanav{
+	padding: 8px;
+	background-color: #f3f3f3;
+	font-size: 25px;
+	border: 2px solid rgba(0,0,0,0.9);
+	border-radius: 5px;
+}
+
+.header-buttons{
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16%;
+}
+
+.header-buttons a{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.header-buttons a .btn-daniel{
+	background-color: #aaa;
+	line-height: 50px;
+}
+.header-buttons a .btn-daniel:hover{
+	background-color: #4a191d;
+}

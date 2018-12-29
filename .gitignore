@@ -1,5 +1,5 @@
 # ignore css and js frameworks (to use cdn), but do not ignore custom styles
 css/**/*.*
-!css/style/*
+!css/style/*U.css
 js/**/*.*
 !js/script/*
