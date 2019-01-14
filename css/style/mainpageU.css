@@ -2,6 +2,7 @@ html{
 	font-size: 16px;
 	font-family: Helvetica,Arial,sans-serif;
 	color: black;
+	background-color: #ddd;
 }
 .contact{
 	background-color: #1a222c;
@@ -18,4 +19,8 @@ html{
 a{
 	text-decoration: none;
 	color: inherit;
+}
+.table-hover tbody tr:hover{
+	background-color: #1a222c;
+	color: #f3f3f3;
 }
