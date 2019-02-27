@@ -5,9 +5,15 @@ html{
 	background-color: #ddd;
 	overflow-x: hidden;
 }
+body{
+	position: relative;
+}
 .contact{
 	background-color: #1a222c;
 	color: #f3f3f3;
+}
+.contactLeft{
+	margin-bottom: 40px;
 }
 
 .main-container section {
@@ -21,9 +27,12 @@ a{
 	text-decoration: none;
 	color: inherit;
 }
+
+#about{
+	/* background-color: whitesmoke; */
+}
 .table-hover tbody tr:hover{
-	background-color: #1a222c;
-	color: #f3f3f3;
+	background-color: rgba(0,0,0,0.2);  /*#1a222c;*/
 }
 .progress{
 	margin-top: 5px;
@@ -35,6 +44,9 @@ a{
 .table{
 	overflow: auto;
 }
+.table * tr th{
+    text-align: center;
+}
 
 .falltheme{
 	background-color: #d26c00;
@@ -42,8 +54,10 @@ a{
 
 .footd{
 	background-color: white;
-	padding: 100px;
+	padding: 20px;
 }
+
+
 .about h5 .highlight{
     -webkit-animation: colorLoop 12s infinite;
     -moz-animation: colorLoop 12s infinite;
