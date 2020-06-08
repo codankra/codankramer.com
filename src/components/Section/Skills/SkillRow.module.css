@@ -1,0 +1,12 @@
+
+.hoverchild2:hover * * {
+    background-color: rgba(169, 169, 169, .5);
+}
+.name{
+    min-width: 200px;
+}
+
+.middleProg{
+    margin-top: 3.75px;
+    margin-right: 5px;
+}
