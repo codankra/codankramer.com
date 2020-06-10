@@ -47,7 +47,7 @@ const Header = ({siteTitle}) => (
             <button type="button" className="btn btn-lg btn-daniel"><FaGithub className="fanav"/>{` `}<span className="d-none d-xl-inline-flex">Github</span></button>
             </a>
             <a 
-            href="/daniel-kramer.pdf"
+            href={'/dkSummer2020.pdf'}
             // download="daniel-kramer-resume.pdf"
             >
               <button type="button" className="btn btn-lg btn-daniel"><FaFileAlt/>{` `}<span className="d-none d-xl-inline-flex">Resume</span></button>
