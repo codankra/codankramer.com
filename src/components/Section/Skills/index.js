@@ -30,6 +30,5 @@ const Skills = () =>
         <SkillRow name="React" percent="75" theme="success" />
         <SkillRow name="TypeScript" percent="50" theme="success" />
     </SkillTable>
-    <h4>And more, used to build:</h4> 
 </Section>;
 export default Skills;

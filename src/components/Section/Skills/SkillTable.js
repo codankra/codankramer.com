@@ -9,8 +9,8 @@ import {MdWork} from "react-icons/md"
 
 const SkillTable = (props) => {
     const skillStyle={
-        "vertical-align": "middle",
-        "margin-bottom": "-10px"
+        "verticalAlign": "middle",
+        "marginBottom": "-10px"
     }
     return (
         <Row className="row-space">

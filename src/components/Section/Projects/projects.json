@@ -1,0 +1,16 @@
+[
+    {
+        "web": "https://forkist.com", 
+        "name": "Forkist Web", 
+        "techs": ["React ◾ Next ◾ Express ◾ Firebase Auth"], 
+        "img": "/forkist.png", 
+        "desc": "I worked with a team of 5 to build a website for a food finder app. I relayed http requests to a backend Express API, designed third-party authentication, and helped implement location logging"
+    },
+    {
+        "web": "https://forkist.com", 
+        "name": "Forkist Web", 
+        "techs": ["React ◾ Next ◾ Express ◾ Firebase Auth"], 
+        "img": "/forkist.png", 
+        "desc": "I worked with a team of 5 to build a website for a food finder app. I relayed http requests to a backend Express API, designed third-party authentication, and helped implement location logging"
+    }
+]

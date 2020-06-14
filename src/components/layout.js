@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
+        <footer className="text-center">
           <hr />
           © {new Date().getFullYear()} Daniel Kramer<br /><br/>Built with <a href="https://www.gatsbyjs.org">Gatsby</a> while listening to Zelda music <FcMusic />
         </footer>

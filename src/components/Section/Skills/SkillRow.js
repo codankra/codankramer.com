@@ -21,6 +21,6 @@ const SkillRow = ({name, percent, theme}) => {
 }
 SkillRow.propTypes = {
     name: PropTypes.string.isRequired,
-    percent: PropTypes.number.isRequired
+    percent: PropTypes.string.isRequired
 }
 export default SkillRow;

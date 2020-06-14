@@ -133,17 +133,21 @@
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: large;
     font-weight: 600;
-    color: #083658;
-	background-color: #7cb19cb8;
+    color: #f3f3f3;
+	background-color: #000000ba;
 	line-height: 40px;
 	text-shadow: 2px 2px 3px rgba(0,0,0, 0.15);
-    border: 3px solid #083658;
+    border: 3px solid #273253aa;
     border-radius: 20px;
 }
 
 .header-buttons a .btn-daniel:hover{
-	background-color: #6aa791;
+    background-color: #273253;
+    border-color: #000;
 }
 .header-buttons a .btn-daniel > *:first-child{
     font-size: x-large;
+}
+.cardList hr:first-of-type{
+    display: none;
 }
