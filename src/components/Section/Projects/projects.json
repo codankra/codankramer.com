@@ -7,7 +7,7 @@
         "desc": "I worked with a team of 5 to build a website for a food finder app. I relayed http requests to a backend Express API, designed third-party authentication, and helped implement location logging."
     },
     {
-        "web": "https://ruingaming.io", 
+        "web": "http://www.ruingaming.io/#/", 
         "name": "RUIn Gaming", 
         "techs": ["React ◾ TypeScript ◾ Material UI ◾ Figma"], 
         "img": "/ruin2.png", 
