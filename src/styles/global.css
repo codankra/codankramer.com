@@ -58,6 +58,10 @@
 .row-space{
     margin-bottom: 15px;
 }
+.row-push{
+    margin-top: 50px;
+    margin-bottom: -60px;
+}
 .vert-center{
     vertical-align: middle;
 }
@@ -148,6 +152,10 @@
 .header-buttons a .btn-daniel > *:first-child{
     font-size: x-large;
 }
-.cardList hr:first-of-type{
-    display: none;
+
+
+hr{
+    margin: 50px auto;
+    width: 90%;
+
 }

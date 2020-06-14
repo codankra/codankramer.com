@@ -10,7 +10,7 @@ const About = () => (
         <p className="text-center">I'm looking a <span className="highlight">Front End</span>, <span className="highlight">Full Stack</span>, or <span className="highlight">Software Development</span> role starting after I graduate <span className="highlight">December 2020</span>.</p>
         <p className="text-center">My <span className="highlight">goal</span> is to be able to help teammates, companies, and clients meet their development goals efficiently and effectively.</p>
         <p className="text-center">My <span className="highlight">hobbies</span> include <span className="highlight">learning new skills</span>, strategy/simulation games, cooking (baking especially), reading, hiking/running/general fitness, and <span className="highlight">coding cool projects</span>
-        </p><h4> Such as...</h4>
+        </p><h4 className="row-push">such as...</h4>
     </Section>
 );
 

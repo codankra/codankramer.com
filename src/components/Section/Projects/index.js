@@ -6,9 +6,17 @@ const projects = require('./projects.json');
 
 const Projects = () => {
     let cards = [];
-    let count = 0;
+    let count = -1;
     projects && projects.forEach(project => {
-        cards.push(<ProjectCard {...project} key={count} keyC={count++} />);
+        if(count === -1) {
+            count++;
+            cards.push(<ProjectCard {...project} key={count} keyC={count++} />);
+        }
+        else {
+            cards.push(<div><hr /><ProjectCard {...project} key={count} keyC={count++} /></div>);
+        }
+
+        
     });
     return (
         <Section sectionTitle="Projects">
@@ -16,7 +24,7 @@ const Projects = () => {
                 {cards}
             </Row>
             
-            <h4>Made with:</h4>
+            <h4 className="row-push">made with...</h4>
         </Section>
     )
     
