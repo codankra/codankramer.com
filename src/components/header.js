@@ -7,9 +7,9 @@ import { FaGithub, FaLinkedin, FaFileAlt, FaEnvelope } from "react-icons/fa"
 const Header = ({siteTitle}) => (
   <StaticQuery query={graphql`
     query {
-      indexImage: file(relativePath: {eq: "midstream.jpg" }) {
+      indexImage: file(relativePath: {eq: "mountaintop.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 2560){
+          fluid(maxWidth: 2400){
             ...GatsbyImageSharpFluid
           }
         }
@@ -19,7 +19,7 @@ const Header = ({siteTitle}) => (
   render={data => (
     <header
     style={{
-      background: `#339966`,
+      background: `#fff`,
       marginBottom: `1.45rem`,
     }}
   >

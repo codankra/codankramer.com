@@ -83,7 +83,7 @@
     
 }
 .header-overlay{
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.1);
     height: 100%;
 }
 .header-content{
@@ -99,7 +99,6 @@
     display: table-cell;
 }
 .header-text *{
-	background-color: rgba(0,0,0,0.10);
 	padding: 10px;
 	text-align: center;
 	color: #f3f3f3;
@@ -138,15 +137,15 @@
     font-size: large;
     font-weight: 600;
     color: #f3f3f3;
-	background-color: #000000ba;
+	background-color: #31313199;
 	line-height: 40px;
 	text-shadow: 2px 2px 3px rgba(0,0,0, 0.15);
-    border: 3px solid #273253aa;
+    border: 3px solid #495c97a6;
     border-radius: 20px;
 }
 
 .header-buttons a .btn-daniel:hover{
-    background-color: #273253;
+    background-color: #45677e;
     border-color: #000;
 }
 .header-buttons a .btn-daniel > *:first-child{

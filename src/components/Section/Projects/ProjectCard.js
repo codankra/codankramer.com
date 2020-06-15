@@ -12,7 +12,7 @@ const ProjectCard = ({web, src, name, techs, img, desc, keyC}) => {
     let col2 = (
                 <Col xs={12} md={6}>
                     <h2 className={styles.name}>{name}</h2>
-                    <p>{desc}</p>
+                    <p className="text-center">{desc}</p>
                     <p className={styles.techsList}>{techs}</p>
                     { (web || src) &&
                     <div className={styles.projLinks}>

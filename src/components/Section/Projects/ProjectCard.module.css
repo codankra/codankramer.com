@@ -1,12 +1,36 @@
 .techsList{
     font-family: monospace;
     font-weight: bold;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
 }
 .name{
     margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
 }
 .projImg{
     object-fit: cover;
     height: 300px;
     width: 100%;
+}
+.projLinks{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.projLinks a{
+    color: #f3f3f3;
+	background-color: #31313199;
+    border: 3px solid #495c97a6;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+.projLinks a:hover{
+    background-color: #45677e;
+    border-color: #000;
 }
