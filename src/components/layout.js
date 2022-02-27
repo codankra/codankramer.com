@@ -11,7 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import { FcMusic } from "react-icons/fc"
 
 import Header from "./header"
-import 'bootstrap/dist/css/bootstrap.min.css'
+import "bootstrap/dist/css/bootstrap.min.css"
 import "./layout.css"
 import "../styles/global.css"
 
@@ -38,8 +38,11 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer className="text-center">
-          <hr />
-          © {new Date().getFullYear()} Daniel Kramer<br /><br/>Built with <a href="https://www.gatsbyjs.org">Gatsby</a> while listening to Zelda music <FcMusic />
+          <hr />© {new Date().getFullYear()} Daniel Kramer
+          <br />
+          <br />
+          Built with <a href="https://www.gatsbyjs.org">Gatsby</a> while
+          listening to Zelda music <FcMusic />
         </footer>
       </div>
     </>

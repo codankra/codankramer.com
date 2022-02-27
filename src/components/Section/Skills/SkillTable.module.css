@@ -7,8 +7,7 @@
 .thead4{
     background-color: rgba(0,0,0,0.5);
 } */
-.theader{
-    width: 18%;
-    background-color: rgba(0,0,0,0.03);
+.theader {
+  width: 18%;
+  background-color: rgba(0, 0, 0, 0.1);
 }
-

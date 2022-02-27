@@ -1,22 +1,20 @@
 import React from "react"
-import Container from 'react-bootstrap/Container'
+import Container from "react-bootstrap/Container"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Skills from "../components/Section/Skills"
 import About from "../components/Section/About"
 import Projects from "../components/Section/Projects"
 
-
 const IndexPage = () => (
   <Layout>
-    <SEO title="Me" />
+    <SEO title="Welcome" />
     <Container fluid>
       <About />
-      <Projects/>
+      <Projects />
       <Skills />
     </Container>
-    
   </Layout>
 )
 
-export default IndexPage;
+export default IndexPage
