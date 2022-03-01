@@ -1,23 +1,23 @@
 [
-    {
-        "web": "https://forkist.com", 
-        "name": "Forkist Web", 
-        "techs": ["React ◾ Next.js ◾ Express"], 
-        "img": "/forkist.png", 
-        "desc": "I worked with a team of five to build a website for a food finder app. I relayed HTTP requests to a backend API, designed third-party authentication, and helped implement location logs."
-    },
-    {
-        "web": "http://www.ruingaming.io/#/", 
-        "name": "RUIn Gaming", 
-        "techs": ["React ◾ TypeScript ◾ Material UI ◾ Figma"], 
-        "img": "/ruin2.png", 
-        "desc": "As a senior design project, my team re-modeled the RUIn progressive web application for gamers to network and schedule games. I enhanced user experience and improved site performance. For five weeks as a Project Manager, I advised design decisions and coordinated task creation, assignment and completion."
-    },
-    {
-        "src": "https://github.com/codankra/CVAnalysis", 
-        "name": "Computer Vision Research", 
-        "techs": ["Python ◾ Node.js ◾ Bash ◾ tSNE"], 
-        "img": "/cv.png", 
-        "desc": "In a four-student research group, I created a web scraper for error/heatmap data and images from public CV algorithm datasets. I created scripts to generate correlation matrixes to analyze similarities between algorithms of interest."
-    }
+  {
+    "web": "https://forkist.com",
+    "name": "Forkist Web",
+    "techs": ["React ◾ Next.js ◾ Express"],
+    "img": "/forkist.png",
+    "desc": "I worked with a team of five to build a website for a food finder app. I relayed HTTP requests to a backend API, designed third-party authentication, and helped implement location logs."
+  },
+  {
+    "web": "https://ru-in.com/",
+    "name": "RUIn Gaming",
+    "techs": ["React ◾ TypeScript ◾ Material UI ◾ Figma"],
+    "img": "/ruin2.png",
+    "desc": "As a senior design project, my team re-modeled the RUIn progressive web application for gamers to network and schedule games. I enhanced user experience and improved site performance. For five weeks as a Project Manager, I advised design decisions and coordinated task creation, assignment and completion."
+  },
+  {
+    "src": "https://github.com/codankra/CVAnalysis",
+    "name": "Computer Vision Research",
+    "techs": ["Python ◾ Node.js ◾ Bash ◾ tSNE"],
+    "img": "/cv.png",
+    "desc": "In a four-student research group, I created a web scraper for error/heatmap data and images from public CV algorithm datasets. I created scripts to generate correlation matrixes to analyze similarities between algorithms of interest."
+  }
 ]

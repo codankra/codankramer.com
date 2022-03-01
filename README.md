@@ -1,6 +1,6 @@
-# Personal Website 🚀 
+# Personal Website 🚀
 
-Built with Gatsby, and Bootstrap!
+Built with Gatsby, and Bootstrap! I usually prefer the Next.js framework and Tailwind for CSS, but love to see what's out there by getting my hands dirty with other industry trends, frameworks, tools and styles. I think my simple personal SPA is a great candidate for trying out different tech!
 
 ## What's inside? 🧐
 

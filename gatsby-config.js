@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Daniel Kramer`,
-    description: `Hi, I'm Daniel Kramer. This personal site is a chance for me to carve out a personal space of the web and share my accomplishments and what I'm up to.`,
+    description: `Welcome to the personal site of software wizard Daniel Kramer. If you're seeing this in a search engine or link preview, my SEO magic is working! This site is a chance for me to carve out a personal space of the web and share what I'm up to.`,
     author: `@codankra`,
   },
   plugins: [
