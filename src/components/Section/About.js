@@ -8,44 +8,48 @@ const About = () => (
       of the web and share what I'm up to.
     </h4>
     <p className="text-center">
-      I graduated early (2017-2020) with a{" "}
+      I graduated in 2020 with a{" "}
       <span className="highlight">B.S. in Computer Science</span> with high
-      honors and well as a minor in Quantitative Finance. I've worked hard
-      leveraging these credentials (well okay, mostly the CS one) quickly rising
-      through the ranks of IBM to become a{" "}
-      <span className="highlight">
-        Staff Software Engineer leading test automation, monitoring, security,
-        and DevOps
-      </span>{" "}
-      for my team and department. I've also trained to become a certified Data
-      Engineer.
+      honors and a minor in Quantitative Finance. I've worked hard fighting the
+      "rest & obey" culture at IBM to take on challenge and opportunity. For
+      leading test automation, monitoring, security, and DevOps for my team and
+      helping newer devs I became a{" "}
+      <span className="highlight">"Staff" L7 Software Developer</span> (which is
+      more like mid-level). I am proud of the impact I was able to make to my
+      team and to two web applications. I learned a lot leading a small team in
+      a rewrite of a <kbd>{new Date().getFullYear() - 1998}</kbd> year old web
+      application, contributing to the full stack engineering effort but
+      specializing in data integrity/migration and front end development.
     </p>
     <p className="text-center">
-      Now after 2 years of service to IBM, I've kept the strong desire to learn
-      and grow, and am looking to bring this experience to new teams as well as
-      serve a more Full-Stack role exercising my skills in Frontend development
-      or Data engineering.
+      I quit IBM at the 3 year mark and backpacked for 2 months in Spain and
+      France. I'm using the rest of my liquid savings to fund my startup,{" "}
+      <a className="highlight" href="https://tewwie.com">
+        tewwie.com
+      </a>
+      . I built it after going through many tough moves where dealing with
+      furniture was the hardest part. You can sell furniture or hand it off to
+      Tewwie for us to sell and split the proceeds with you. It's a constant
+      work in progress, but check it out! My challenges as of writing this are
+      integrating with existing marketplaces for a seamless selling experience,
+      and the many hats of sales and marketing I am not used to wearing.
+      Starting a company has only fueled my already strong desire to learn and
+      grow into overdrive.
     </p>
     <p className="text-center">
-      <b>Hobbies</b>
-      <br /> I am abnormally interested in{" "}
-      <span className="highlight">personal finance and investing</span>, that's
-      a constant, but I've recently been training to{" "}
-      <span className="highlight">
-        conquer bouldering problems and my personal health concurrently
-      </span>
-      , and the inspiration comes and goes to learn a piano song or two once in
-      a while. Taking the{" "}
-      <a href="https://drkerrymakinbyrd.com/blog/newports-craftsman-approach-to-tool-selection-or-why-i-might-be-quitting-social-media">
-        Craftman's Approach to Tool Selection
-      </a>{" "}
-      I learned from Cal Newport's book Deep Work, I stay off social media
-      except the sites listed above, and I carefully weigh the tools used in the
-      creation of this site, my other personal and work endeavors. I have a
-      private and freedom-loving nature. But of course, I love coding and
-      sharing <span className="highlight">cool projects</span>
+      <b>Other Passions</b>{" "}
     </p>
-    <h4 className="row-push">such as...</h4>
+    <ul>
+      <li>Personal Finance & Investing</li>
+      <li>Climbing</li>
+      <li>Health</li>
+      <li>Privacy and Freedom</li>
+    </ul>
+    <p>
+      Sorry I can't share my company's code, but feel free to check out some
+      other projects I've contributed to:
+    </p>
+    {/* <h4 className="row-push">such as...</h4> */}
   </Section>
 )
 

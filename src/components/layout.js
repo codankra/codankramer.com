@@ -41,8 +41,8 @@ const Layout = ({ children }) => {
           <hr />© {new Date().getFullYear()} Daniel Kramer
           <br />
           <br />
-          Built with <a href="https://www.gatsbyjs.org">Gatsby</a> while
-          listening to Zelda music <FcMusic />
+          <FcMusic /> Built with Gatsby while listening to Skyrim music{" "}
+          <FcMusic />
         </footer>
       </div>
     </>

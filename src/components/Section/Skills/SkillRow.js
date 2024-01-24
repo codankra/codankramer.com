@@ -27,7 +27,7 @@ const SkillRow = ({ name, percent, theme, isPrimary = false }) => {
           className={styles.middleProg}
           variant={variant}
           now={percent}
-          srOnly
+          sronly="true"
         />
       </td>
     </tr>

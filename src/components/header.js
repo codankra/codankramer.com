@@ -36,7 +36,7 @@ const Header = ({ siteTitle }) => (
                 <h5 className="role">Software Engineer</h5>
               </div>
               <div className="header-buttons">
-                <a href="https://www.linkedin.com/in/codankramer">
+                <a href="https://www.linkedin.com/in/iwanttohiredanielkramer/">
                   <button type="button" className="btn btn-lg btn-daniel">
                     <FaLinkedin className="fanav" />
                     {` `}
@@ -52,7 +52,7 @@ const Header = ({ siteTitle }) => (
                   </button>
                 </a>
                 <a
-                  href={"/DanielKramer22.pdf"}
+                  href={"/referenceResume.pdf"}
                   // download="daniel-kramer-resume.pdf"
                 >
                   <button type="button" className="btn btn-lg btn-daniel">

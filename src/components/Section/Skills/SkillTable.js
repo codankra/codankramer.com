@@ -1,7 +1,6 @@
 import React from "react"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
-import * as styles from "./SkillTable.module.css"
 import Table from "react-bootstrap/Table"
 import { FaBabyCarriage, FaChalkboardTeacher } from "react-icons/fa"
 import { BsGearFill } from "react-icons/bs"
